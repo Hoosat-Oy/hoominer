@@ -7,20 +7,20 @@ Welcome to Hoominer v0.3.2
 Usage: ./build/hoominer [--stratum <stratum+tcp://domain:port>] [--user <user>] [--pass <pass>]
 
 General parameters: 
---algorithm <algorthm>                          The algorithm to mine, by default 'hoohash'.
---stratum <stratum+tcp://domain:port>           The stratum protocol://address:port to specify connection point (stratum+ssl:// or stratum+tls:// to enable SSL/TLS).
---user <user>                                   Stratum username (Usually mining wallet address).
---password <password>                           Stratum password (Usually not required or used as additional stratum parameters).
---disable-cpu                                   Disable CPU mining completely.
---disable-gpu                                   Disable GPU mining completely.
---disable-opencl                                Disable OpenCL mining.
---disable-cuda                                  Disable CUDA mining.
---debug                                         More information displayed.
+- `--algorithm <algorthm>`                          The algorithm to mine, by default 'hoohash'.
+- `--stratum <stratum+tcp://domain:port>`           The stratum protocol://address:port to specify connection point (stratum+ssl:// or stratum+tls:// to enable SSL/TLS).
+- `--user <user>`                                   Stratum username (Usually mining wallet address).
+- `--password <password>`                           Stratum password (Usually not required or used as additional stratum parameters).
+- `--disable-cpu`                                   Disable CPU mining completely.
+- `--disable-gpu`                                   Disable GPU mining completely.
+- `--disable-opencl`                                Disable OpenCL mining.
+- `--disable-cuda`                                  Disable CUDA mining.
+- `--debug`                                         More information displayed.
 
 CPU parameters: 
---cpu-threads <thread-count>                    Select how many CPU threads to create.
+- `--cpu-threads <thread-count>`                    Select how many CPU threads to create.
 
 GPU parameters: 
---list-gpus                                     List gpu bus id's.
---gpu-ids <bus-id list>                         Select which GPU's to use, seperate bus id's with comma (if not specified all devices will be used).
---opencl-o <level>                              Select OpenCL compile time optimization level.--gpu-work-multiplier <level> Select multiplier for OpenCL global work size or Nvidia blocks size.
+- `--list-gpus`                                     List gpu bus id's.
+- `--gpu-ids <bus-id list>`                         Select which GPU's to use, seperate bus id's with comma (if not specified all devices will be used).
+- `--opencl-o <level>`                              Select OpenCL compile time optimization level.--gpu-work-multiplier <level> Select multiplier for OpenCL global work size or Nvidia blocks size.
