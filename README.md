@@ -23,4 +23,5 @@ CPU parameters:
 GPU parameters: 
 - `--list-gpus`                                     List gpu bus id's.
 - `--gpu-ids <bus-id list>`                         Select which GPU's to use, seperate bus id's with comma (if not specified all devices will be used).
-- `--opencl-o <level>`                              Select OpenCL compile time optimization level.--gpu-work-multiplier <level> Select multiplier for OpenCL global work size or Nvidia blocks size.
+- `--opencl-o <level>`                              Select OpenCL compile time optimization level (0 no optimizations, 1 basic optimizations, 2 default otimizations, 3 best optimization).
+- `--gpu-work-multiplier <level>`                   Select multiplier for OpenCL global work size or Nvidia blocks size.
