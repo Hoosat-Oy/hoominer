@@ -1,5 +1,5 @@
 # Hoominer
-Hoominer is [Hoosat Networks](https://network.hoosat.fi)closed source miner for CPU/GPU mining. Currently supports only Hoohash algorithm which is open source algorithm based on kHeavyHash. 
+Hoominer is [Hoosat Networks](https://network.hoosat.fi) closed source miner for CPU/GPU mining. Currently supports only Hoohash algorithm which is open source algorithm based on kHeavyHash. 
 
 
 ## Settings
