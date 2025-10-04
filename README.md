@@ -25,3 +25,8 @@ GPU parameters:
 - `--gpu-ids <bus-id list>`                         Select which GPU's to use, seperate bus id's with comma (if not specified all devices will be used).
 - `--opencl-o <level>`                              Select OpenCL compile time optimization level (0 no optimizations, 1 basic optimizations, 2 default otimizations, 3 best optimization which might fail).
 - `--gpu-work-multiplier <level>`                   Select multiplier for OpenCL global work size or Nvidia blocks size (0 multiplier is default). 
+
+
+API parameters:
+- `--disable-api`                                   Disables API
+- `--api-port`                                      API Port
